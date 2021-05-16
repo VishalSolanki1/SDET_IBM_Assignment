@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="0">
+<testcase classname="Test email functionality of new application from different browsers" name="Login and send email through new application" time="0">
+<system-out><![CDATA[Given User should open the new application from "firefox"...................skipped
+And User should login into with "VishalSolanki1" and "vishal0123456789".....skipped
+When User should verify login confirmation..................................skipped
+And User should verify user profile and click to send mail..................skipped
+And User should select "Vishal".............................................skipped
+And User should compose body "Hello Vishal, This is for testing Thanks and Regards: Vishal" and subject "Hi For Testing".skipped
+And User should send mail...................................................skipped
+Then User should verify the confirmation message............................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Test sign up functionality of new application from different browsers" name="Complete registration in new application" time="0">
+<system-out><![CDATA[Given User should signup the new application from "chrome"..................skipped
+When User should enter firstname "Vishal" and lastname "Solanki"............skipped
+And User should enter email "vishalsolanki1812@in.ibm.com"..................skipped
+And User should enter username "VishalSolanki22"............................skipped
+And User should enter and confirm "vishal987654321".........................skipped
+And User should submit registration form>...................................skipped
+Then User should verify the registration confirmation message...............skipped
+And User should validate email in userprofile...............................skipped
+]]></system-out>
+</testcase>
+</testsuite>
